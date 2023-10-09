@@ -36,6 +36,18 @@ html{
     text-align: center;
 }
 
+.gamedraw{
+    font-size: 30px;
+    color: #fdd663;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    /* justify-content: center;
+    align-items: centre; */
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+
 .reset{
     font-size: 25px;
     border: 2px solid #fdd663;
@@ -144,6 +156,15 @@ html{
 }
 
 .winner{
+    font-size: 28px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+    .gamedraw{
     font-size: 28px;
     padding-top: 40px;
     padding-bottom: 25px;
