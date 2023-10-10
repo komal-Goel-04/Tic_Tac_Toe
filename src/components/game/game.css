@@ -1,0 +1,154 @@
+/* .board_container{
+    background-color: #19283c;
+} */
+
+@font-face {
+    font-family: "xyz";
+    src: url('./game.otf');
+}
+
+.element{
+    font-size: 50px;
+    color: #fdd663;
+}
+
+.square{
+    background-color: #1b1c24;
+    /* border-radius: 5px; */
+}
+
+html{
+    background-color: #19283c;
+}
+.row{
+    justify-content: center;
+    /* border-radius: 5px; */
+}
+.winner{
+    font-size: 30px;
+    color: #fdd663;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    /* justify-content: center;
+    align-items: centre; */
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+
+.reset{
+    font-size: 25px;
+    border: 2px solid #fdd663;
+    /* padding: 10px; */
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #19283c;
+    border-radius: 25px;
+    color: #fdd663;
+}
+
+/* .board_container{
+    display: flex;
+    flex-direction: column;
+} */
+
+.resetdiv{
+    padding-top: 30px;
+    padding-left: 482px; 
+    margin: auto; 
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*--------------------------------landing page------------------------------*/
+.heading{
+    font-family: 'xyz';
+    color: #fdd663;
+    font-size: 50px;
+    font-weight: 200;
+    margin-top: 90px;
+}
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-button{
+    font-size: 40px;
+    border: 2px solid #fdd663;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #19283c;
+    border-radius: 25px;
+    color: #fdd663;
+    /* margin: auto; */
+    /* width: 50%;  */
+    /* transform: translate(-50%, -50%)  */
+}
+
+.start-button-div{
+    /* padding-top: 700px; */
+    /* transform: translate(-50%, -50%) */
+    /* margin: auto; 
+    width: 50%;
+    justify-content: center;
+    align-items: center;  */
+}
+
+.square{
+    border: 1.5px solid;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 5px; */
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+
+.heading{
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: 90px;
+}
+
+.start-button{
+    font-size: 30px;
+    border: 1.5px solid #fdd663;
+    border-radius: 25px;
+
+}
+
+.square{
+    padding-top: 10px;
+    border: 1.5px solid; 
+    height: 90px;
+    width: 90px; 
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    /* border-radius: 5px; */
+}
+
+.winner{
+    font-size: 28px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+}

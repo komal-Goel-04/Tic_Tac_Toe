@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #babec4; 
 }
 
 .App-logo {
@@ -7,11 +8,127 @@
   pointer-events: none;
 }
 
+.signingup span{
+  font: bold;
+  color: rgb(19, 19, 231);
+  cursor: pointer;
+}
+
+.container{
+  background-color: white;
+  display: flex;
+  padding-left: 90px;
+  border:  solid; 
+  border-radius: 10px;
+  margin-top: 20px;
+  margin:40px;
+  /* #263238 */
+}
+/* head{
+  background-color: white;
+}
+html{
+  background-color: white;
+}
+body{
+  background-color: white;
+} */
+
+
+.container .content{
+  padding-top: 25px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  /* background: #92E3A9; */
+}
+
+.container .content h1{
+  color: #263238;
+}
+.container .content Button{
+  background-color: #19283c;
+  color: white;
+  padding-bottom: 5px;
+
+}
+
+.content .error{
+  color: red;
+}
+
+.row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.board_container{
+  margin: 20px;
+}
+
+.image{
+  height:20px;
+  width: 20px;
+}
+/* .board_container{
+  color: #19283c;
+} */
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+@media only screen and (max-width: 600px){
+  
+  .container{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    padding-left: 0px;  
+    border: none;
+    /* width: 50%;
+    margin: auto; */
+  }
+  
+  .Image img{
+    /* width: 50%;*/
+    /* margin: auto; 
+    justify-content: center;  */
+    /*align-items: center;*/
+    /* padding-right: 50px; */
+    /* padding-left: 20px; */
+    padding-bottom: 0; 
+    height: 300px;
+    width: 300px;
+
+  } 
+
+  .Image{
+    /* padding-left: 15px; */
+    width: 50%;  
+    /* margin: auto; */
+    padding-top: 0px;
+    padding-bottom: 0;
+    justify-content: center;
+    padding-left: 55px;  
+  }
+
+  .container .content{
+    width: 70%;
+    margin: auto;
+    padding-top: 0;
+    padding-left: 0px; 
+  }
+
+  .Createheading{
+    font-size: 15px;
+  }
+
+  
+
+}
+
 
 .App-header {
   background-color: #282c34;
